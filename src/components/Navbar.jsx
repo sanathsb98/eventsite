@@ -14,7 +14,6 @@ const Navbar = () => {
     setNavbarExpanded(!navbarExpanded)
   }
 
-
   return (
     <div className={`navbar`}>
       <div className={`mobile-view-navbar ${navbarExpanded ? 'expanded':''}`}>
