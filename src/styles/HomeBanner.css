@@ -1,0 +1,70 @@
+.home-banner{
+    background-color: rgb(184, 184, 184);
+    height: 448px;
+    position: relative;
+
+  
+   
+}
+.banner-image{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.event-profile{
+    background-color: rgb(153, 153, 153);
+    /* width: 45%; */
+    height: 70%;
+    position: absolute;
+
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  
+
+   
+}
+.banner-overlay {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 41.07%, #000 100%), url(<path-to-image>), lightgray 50% / cover no-repeat, #D9D9D9;
+  }
+  .profile-image {
+      width: 176px;
+      height: 176px;
+      border-radius: 20px;
+      border: 2px solid #DEDEDE;
+      background: rgba(118, 118, 118, 0.85);
+  }
+  .profile-date-location{
+    display: flex;
+    flex-direction: row;
+   gap: 16px;
+  }
+  .calender-icon,.location-icon{
+    vertical-align: middle;
+    margin-right: 6px;
+  }
+  .profile-icon-text{
+    display: flex;
+    flex-direction: row;
+  }
+  .profile-date{
+    vertical-align: middle;
+    margin-top: 2px;
+  }
+  .profile-location{
+    margin-top: 2px;
+  }
