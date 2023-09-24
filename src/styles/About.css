@@ -1,0 +1,23 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 24px 24px;
+    gap: 16px;
+}
+
+.about-heading {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 850px) {
+    .about{
+       
+       width: 100%;
+       width: fit-content;
+     
+    }
+  }

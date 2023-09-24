@@ -1,0 +1,51 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px;
+    gap: 16px;
+  
+}
+
+.gallery-contents {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.gallery-header-box{
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-heading {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+.gallery-view-all{
+    color: var(--gray-500, #667085);
+    font-size: 16px;
+font-style: normal;
+font-weight: 500;
+}
+.gallery-image-1{
+    /* height: 300px; */
+    flex: 1;
+   width: 50%;
+   background-color: rgb(167, 167, 167);
+
+   max-width: 100%; /* Limit the image width to the container width */
+    max-height: 100%; /* Limit the image height to the container height */
+    overflow: hidden;
+}
+.image-container {
+    position: relative;
+    padding-top: 100%; 
+    overflow: hidden;
+}
+.gallery-img{
+   top: 0;
+    position: absolute;
+    width: 100%; /* Make the image width 100% of the container width */
+    height: 100%; /* Make the image height 100% of the container height */
+    object-fit: cover; 
+}
+

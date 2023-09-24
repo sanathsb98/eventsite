@@ -1,9 +1,13 @@
 import React from 'react';
 import '../styles/HomeBanner.css';
 import BannerImage from '../assets/banner.png'
+import EventType from './EventType';
+import About from './About';
+import Gallery from './Gallery';
 
 const HomeBanner = () => {
   return (
+    <>
     <div className='home-banner'>
     <div className='banner-overlay'>
       <img className='banner-image' alt='banner-image' />
@@ -44,6 +48,24 @@ const HomeBanner = () => {
         </div>
       </div>
     </div>
+    
+    <div>
+      <EventType/>
+    </div>
+
+      <div className='about-gallery'>
+        <div className='about-section'>
+          <About />
+        </div>
+        <div className='gallery-section'>
+          <Gallery />
+        </div>
+      </div>
+
+      <div className='artist-and-teams'>
+        
+      </div>
+    </>
   )
 }
 
