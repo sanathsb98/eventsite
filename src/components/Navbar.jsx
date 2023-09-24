@@ -17,10 +17,23 @@ const Navbar = () => {
 
   return (
     <div className={`navbar`}>
-      <div className={`mobile-view-navbar ${navbarExpanded ? 'expanded':''}`}>
-        <div onClick={()=>{toggleNavbar()}} className='mobile-navbar-close'>
-          <div>{navbarExpanded ? 'X':''}</div>
-        </div>
+      <div className={`mobile-view-navbar  ${navbarExpanded ? 'expanded':''}`}>
+       <div className='expanded-navbar'>
+
+     
+       
+       
+       <div className='mob-navbar-close-btn' onClick={()=>{toggleNavbar()}}>{navbarExpanded ? 'X':''}</div>
+
+        <div className='mob-nav-option'>List your event</div>
+
+        <div className='mob-nav-option'>Offers</div>
+
+        <div className='mob-nav-option'>Help Center</div>
+
+        <div className='mob-nav-option mob-login-btn'><div>Login</div></div>
+
+       </div>
       </div>
 
       <div className='navitems-container'>
