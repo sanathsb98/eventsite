@@ -1,5 +1,5 @@
 .home-banner{
-    background-color: rgb(175, 175, 175);
+    /* background-color: rgb(175, 175, 175); */
     height: auto;
     position: relative;
     margin-top: 75px;
@@ -17,7 +17,7 @@
   height: auto;
 }
 .event-profile{
-    background-color: rgb(153, 153, 153);
+    /* background-color: rgb(153, 153, 153); */
       /* width: 45%; */
       height: auto;
       position: absolute;
@@ -48,6 +48,9 @@
       border: 2px solid #DEDEDE;
       /* background: rgba(0, 0, 0, 0.85); */
   }
+  .profile-name{
+    margin-top: 32px;
+  }
   .profile-date-location{
     display: flex;
     flex-direction: row;
@@ -71,29 +74,36 @@
   .about-gallery{
     display: flex;
     flex-direction: row;
+    gap: 24px;
   }
   .about-section{
     width: 50%;
-    background-color: #b6b6b6;
+    /* background-color: #b6b6b6; */
+    background: var(--White, #FFF);
+   
   }
   .gallery-section{
     width: 50%;
-    background-color: #999999;
+    /* background-color: #999999; */
+    background: var(--White, #FFF);
   }
 
   .artist-and-teams{
-    background-color: #c8c8c8;
+    /* background-color: #c8c8c8; */
+    background: var(--White, #FFF);
     height: max-content;
     display: flex;
     flex-direction: column;
     color: #000;
     padding: 24px 24px;
+    margin-top: 24px;
   }
 .artist-title-and-info{
   display: flex;
   flex-direction: column;
   gap: 16px;
   margin-bottom: 16px;
+ 
 }
 .artist-or-teams{
   color: var(--gray-700, #344054);
@@ -164,7 +174,7 @@ gap: 12px;
   @media screen and (min-width: 890px) and (max-width: 990px) {
     .event-profile{
      
-        height: 90%;
+        height: 75%;
        
     
   
@@ -172,8 +182,8 @@ gap: 12px;
   }
  
   .profile-image {
-      width: 170px;
-      height: 176px;
+      width: 100px;
+      height: 100px;
      
   }
   }
@@ -183,15 +193,15 @@ gap: 12px;
         height: auto;
         width: auto;
        
-    gap: 10px;
+    gap: 32px;
    
   
      
   }
  
   .profile-image {
-      width: 170px;
-      height: 176px;
+      width: 100px;
+      height: 106px;
      
   }
   }
@@ -207,7 +217,7 @@ gap: 12px;
         height: 80px;
       }
     }
-    @media screen and (min-width: 0px) and (max-width: 615px) {
+    @media screen and (min-width: 0px) and (max-width: 840px) {
     
       .event-profile {
         height: auto;
@@ -230,10 +240,10 @@ gap: 12px;
       }
    .profile-image-and-name{
     display: flex;
-    flex-direction: row;
-    gap: 32px;
+    flex-direction: column;
+    gap: 0px;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
    }
     }
 

@@ -1,13 +1,22 @@
 .mobile-event-profile{
     display: none;
+    color: white;
+    background: var(--gray-900, #101828);
 }
 @media screen and (min-width: 0px) and (max-width: 615px) {
+
+  .mobile-profile-date,.calender-icon{
+    line-height: 28px;
+  }
+  .location-icon,.mobile-profile-location{
+    line-height: 28px;
+  }
    
     .mobile-event-profile{
         display: flex;
         flex-direction: row;
-        background-color: rgb(172, 172, 172);
         margin-top: 24px;
+        background: var(--gray-900, #101828);
   }
   .mobile-profile-date-location{
     display: flex;
