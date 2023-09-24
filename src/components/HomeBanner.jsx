@@ -18,7 +18,8 @@ const HomeBanner = () => {
         </div>
         <div className='event-profile'>
          <div className='profile-image-and-name'>
-         <div className='profile-image'><img className='profile-image' src={EventProfile} alt='event-profile-pic'/></div>
+         {/* <div className='profile-image'><img className='profile-image' src={EventProfile} alt='event-profile-pic'/></div> */}
+        <img className='profile-image' src={EventProfile} alt='event-profile-pic'/>
           <div className='profile-name'>Inde Ganga by SONY LIV</div>
          </div>
           <div className='profile-date-location'>
