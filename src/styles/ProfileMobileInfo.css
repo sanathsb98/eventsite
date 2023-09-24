@@ -1,0 +1,23 @@
+.mobile-event-profile{
+    display: none;
+}
+@media screen and (min-width: 0px) and (max-width: 615px) {
+   
+    .mobile-event-profile{
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(172, 172, 172);
+        margin-top: 24px;
+  }
+  .mobile-profile-date-location{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .mobile-profile-icon-text{
+    display: flex;
+    flex-direction: row;
+    padding: 14px;
+  }
+  
+  }

@@ -1,8 +1,10 @@
 .home-banner{
     background-color: rgb(175, 175, 175);
-    height: 448px;
+    height: auto;
     position: relative;
     margin-top: 75px;
+    display: flex;
+    
 }
 
 .banner-image {
@@ -11,13 +13,13 @@
   width: 100%;
   position: relative;
   display: block;
-  width: 100%;
-  height: 448px;
+  max-width: 100%;
+  height: auto;
 }
 .event-profile{
     background-color: rgb(153, 153, 153);
       /* width: 45%; */
-      height: 70%;
+      height: auto;
       position: absolute;
       color: white;
       position: absolute;
@@ -158,3 +160,119 @@ gap: 12px;
      
     }
   }
+
+  @media screen and (min-width: 890px) and (max-width: 990px) {
+    .event-profile{
+     
+        height: 90%;
+       
+    
+  
+     
+  }
+ 
+  .profile-image {
+      width: 170px;
+      height: 176px;
+     
+  }
+  }
+  @media screen and (min-width: 840px) and (max-width: 890px) {
+    .event-profile{
+     
+        height: auto;
+        width: auto;
+       
+    gap: 10px;
+   
+  
+     
+  }
+ 
+  .profile-image {
+      width: 170px;
+      height: 176px;
+     
+  }
+  }
+    @media screen and (min-width: 615px) and (max-width: 840px) {
+      .event-profile {
+        height: auto;
+        width: auto;
+        gap: 10px;
+      }
+  
+      .profile-image {
+        width: 80px;
+        height: 80px;
+      }
+    }
+    @media screen and (min-width: 0px) and (max-width: 615px) {
+    
+      .event-profile {
+        height: auto;
+        width: auto;
+        gap: 10px;
+      }
+  
+      .profile-image {
+        width: 80px;
+        height: 80px;
+      }
+      .banner-image {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        position: relative;
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+   .profile-image-and-name{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: flex-start;
+    align-items: center;
+   }
+    }
+
+    @media screen and (min-width: 0px) and (max-width: 615px) {
+   
+
+    .profile-date-location{
+      display: none;
+    }
+    .profile-image {
+      width: 120px;
+      height: 120px;
+    }
+    .profile-image-and-name{
+    
+      flex-direction: row;
+      gap: 12px;
+    
+     }
+    }
+
+    @media screen and (min-width: 0px) and (max-width: 450px) {
+   
+
+      .profile-date-location{
+        display: none;
+      }
+      .profile-image {
+        width: 80px;
+        height: 80px;
+      }
+      .profile-image-and-name{
+      
+        flex-direction: row;
+        gap: 12px;
+      
+       }
+      }
+  
+
+
+ 

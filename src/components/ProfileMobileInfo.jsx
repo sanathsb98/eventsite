@@ -1,27 +1,16 @@
 import React from 'react';
-import '../styles/HomeBanner.css';
-import BannerImage from '../assets/banner.png'
-import EventType from './EventType';
-import About from './About';
-import Gallery from './Gallery';
-import ArtistProfile from './ArtistProfile';
-import ProfileMobileInfo from './ProfileMobileInfo';
+import '../styles/ProfileMobileInfo.css';
 
-const HomeBanner = () => {
+const ProfileMobileInfo = () => {
   return (
-    <>
-      <div className='home-banner'>
-        <div className='banner-overlay'>
-          {/* <img className='banner-image' alt='banner-image' /> */}
-          <img className='banner-image' src={BannerImage} alt='banner-image' /> 
-        </div>
-        <div className='event-profile'>
-         <div className='profile-image-and-name'>
-         <div className='profile-image'>image</div>
-          <div className='profile-name'>Inde Ganga by SONY LIV</div>
+   <>
+    <div className='mobile-event-profile'>
+         <div className='mobile-profile-image-and-name'>
+     
+         
          </div>
-          <div className='profile-date-location'>
-            <div className='profile-icon-text'>
+          <div className='mobile-profile-date-location'>
+            <div className='mobile-profile-icon-text'>
               <div><svg className='calender-icon' xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                 <path d="M1.66602 10C1.66602 6.85734 1.66602 5.286 2.64233 4.30968C3.61864 3.33337 5.18999 3.33337 8.33268 3.33337H11.666C14.8087 3.33337 16.3801 3.33337 17.3564 4.30968C18.3327 5.286 18.3327 6.85734 18.3327 10V11.6667C18.3327 14.8094 18.3327 16.3808 17.3564 17.3571C16.3801 18.3334 14.8087 18.3334 11.666 18.3334H8.33268C5.18999 18.3334 3.61864 18.3334 2.64233 17.3571C1.66602 16.3808 1.66602 14.8094 1.66602 11.6667V10Z" stroke="white" stroke-width="1.5" />
                 <path d="M5.83398 3.33337V2.08337" stroke="white" stroke-width="1.5" stroke-linecap="round" />
@@ -36,78 +25,23 @@ const HomeBanner = () => {
               </svg>
 
               </div>
-              <div className='profile-date'>Saturday, 11 Of November 2023</div>
+              <div className='mobile-profile-date'>Saturday, 11 Of November 2023</div>
             </div>
 
-            <div className='profile-icon-text'>
+            <div className='mobile-profile-icon-text'>
               <div>
                 <svg className='location-icon' xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path d="M3.33398 8.4527C3.33398 4.70486 6.31875 1.66663 10.0007 1.66663C13.6825 1.66663 16.6673 4.70486 16.6673 8.4527C16.6673 12.1712 14.5395 16.5103 11.2198 18.062C10.4459 18.4237 9.55544 18.4237 8.78154 18.062C5.46175 16.5103 3.33398 12.1712 3.33398 8.4527Z" stroke="white" stroke-width="1.5" />
                   <circle cx="10" cy="8.33337" r="2.5" stroke="white" stroke-width="1.5" />
                 </svg>
               </div>
-              <div className='profile-location'> Greenfield Stadium, Texas, Mesapotomia</div>
+              <div className='mobile-profile-location'> Greenfield Stadium, Texas, Mesapotomia</div>
             </div>
 
           </div>
         </div>
-       
-      </div>
-      
-      <div>
-      <ProfileMobileInfo/>
-      </div>
-    
-    <div>
-      <EventType/>
-    </div>
-
-      <div className='about-gallery'>
-        <div className='about-section'>
-          <About />
-        </div>
-        <div className='gallery-section'>
-          <Gallery />
-        </div>
-      </div>
-
-      <div className='artist-and-teams'>
-        <div className='artist-title-and-info'>
-          <div className='artist-or-teams'>Artist/Teams</div>
-          <div className='artist-info'>
-            <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <g clip-path="url(#clip0_6363_2570)">
-                <circle cx="8.00065" cy="7.99992" r="6.66667" stroke="#027A48" stroke-width="1.5" />
-                <path d="M8 11.3333V7.33325" stroke="#027A48" stroke-width="1.5" stroke-linecap="round" />
-                <circle cx="0.666667" cy="0.666667" r="0.666667" transform="matrix(1 0 0 -1 7.33398 6)" fill="#027A48" />
-              </g>
-              <defs>
-                <clipPath id="clip0_6363_2570">
-                  <rect width="16" height="16" fill="white" />
-                </clipPath>
-              </defs>
-            </svg></div>
-          <div className='info-content'>As it is a fundraising event you can select any of your favorites from the list and buy tickets as a support to them.</div>
-        </div>
-       </div>
-
-       <div  className='artist-profile-container'>
-       <ArtistProfile/>
-       <ArtistProfile/>
-       <ArtistProfile/>
-       <ArtistProfile/>
-       <ArtistProfile/>
-      
-    
-        
-    
-     
-
-        </div>
-
-      </div>
-    </>
+   </>
   )
 }
 
-export default HomeBanner
+export default ProfileMobileInfo
