@@ -81,8 +81,58 @@
 
   .artist-and-teams{
     background-color: #c8c8c8;
-    height: 50vh;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    padding: 24px 24px;
   }
+.artist-title-and-info{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.artist-or-teams{
+  color: var(--gray-700, #344054);
+
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+}
+.artist-info{
+  border-radius: 6px;
+  background: var(--success-50, #ECFDF3);
+  color: var(--success-700, #027A48);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; 
+
+  display: flex;
+padding: 2px 8px;
+align-items: center;
+gap: 8px;
+width:fit-content;
+}
+.info-content{
+  color: var(--success-700, #027A48);
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px;
+
+
+}
+.artist-profile-container{
+  display: flex;
+
+  flex-wrap: wrap;
+gap: 12px;
+ 
+}
+
+
 
   @media screen and (min-width: 0px) and (max-width: 850px) {
     .about-gallery{
@@ -98,5 +148,13 @@
     .gallery-section{
       width: 100%;
   
+    }
+  }
+  @media screen and (min-width: 0px) and (max-width: 1500px) {
+    .artist-profile-container{
+    
+    
+    justify-content: center;
+     
     }
   }

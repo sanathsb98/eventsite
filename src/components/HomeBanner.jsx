@@ -4,6 +4,7 @@ import BannerImage from '../assets/banner.png'
 import EventType from './EventType';
 import About from './About';
 import Gallery from './Gallery';
+import ArtistProfile from './ArtistProfile';
 
 const HomeBanner = () => {
   return (
@@ -63,7 +64,39 @@ const HomeBanner = () => {
       </div>
 
       <div className='artist-and-teams'>
+        <div className='artist-title-and-info'>
+          <div className='artist-or-teams'>Artist/Teams</div>
+          <div className='artist-info'>
+            <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <g clip-path="url(#clip0_6363_2570)">
+                <circle cx="8.00065" cy="7.99992" r="6.66667" stroke="#027A48" stroke-width="1.5" />
+                <path d="M8 11.3333V7.33325" stroke="#027A48" stroke-width="1.5" stroke-linecap="round" />
+                <circle cx="0.666667" cy="0.666667" r="0.666667" transform="matrix(1 0 0 -1 7.33398 6)" fill="#027A48" />
+              </g>
+              <defs>
+                <clipPath id="clip0_6363_2570">
+                  <rect width="16" height="16" fill="white" />
+                </clipPath>
+              </defs>
+            </svg></div>
+          <div className='info-content'>As it is a fundraising event you can select any of your favorites from the list and buy tickets as a support to them.</div>
+        </div>
+       </div>
+
+       <div  className='artist-profile-container'>
+       <ArtistProfile/>
+       <ArtistProfile/>
+       <ArtistProfile/>
+       <ArtistProfile/>
+       <ArtistProfile/>
+      
+    
         
+    
+     
+
+        </div>
+
       </div>
     </>
   )
