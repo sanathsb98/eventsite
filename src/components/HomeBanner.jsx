@@ -6,6 +6,7 @@ import About from './About';
 import Gallery from './Gallery';
 import ArtistProfile from './ArtistProfile';
 import ProfileMobileInfo from './ProfileMobileInfo';
+import EventProfile from '../assets/event-profile-pic.jpg'
 
 const HomeBanner = () => {
   return (
@@ -17,7 +18,7 @@ const HomeBanner = () => {
         </div>
         <div className='event-profile'>
          <div className='profile-image-and-name'>
-         <div className='profile-image'>image</div>
+         <div className='profile-image'><img className='profile-image' src={EventProfile} alt='event-profile-pic'/></div>
           <div className='profile-name'>Inde Ganga by SONY LIV</div>
          </div>
           <div className='profile-date-location'>
@@ -96,13 +97,6 @@ const HomeBanner = () => {
        <ArtistProfile/>
        <ArtistProfile/>
        <ArtistProfile/>
-       <ArtistProfile/>
-      
-    
-        
-    
-     
-
         </div>
 
       </div>

@@ -102,6 +102,71 @@
     margin-left: 4px;
 }
 
+
+
+ul {
+  
+    top:50%; 
+    left:50%; 
+    width:60px; 
+    height:20px; 
+    list-style:none; 
+    margin-top:-10px; 
+    margin-left:-30px;  
+    cursor:pointer;
+  }
+  
+  li {
+    float:left; 
+    background:#ccc; 
+    width:5px; 
+    height:5px; 
+    margin-right:10px; 
+    border-radius:10px;}
+  
+  ul:hover .circle1 {
+    animation: fadeIn 700ms ease-in-out 0s 1 forwards;
+    -webkit-animation: fadeIn 700ms ease-in-out 0s 1 forwards;
+    -moz-animation: fadeIn 700ms ease-in-out 0s 1 forwards;
+  }
+  
+  ul:hover .circle2 {
+    animation: fadeIn 700ms ease-in-out 200ms 1 forwards;
+    -webkit-animation: fadeIn 700ms ease-in-out 200ms 1 forwards;
+    -moz-animation: fadeIn 700ms ease-in-out 200ms 1 forwards;
+  }
+  
+  ul:hover .circle3 {
+    animation: fadeIn 700ms ease-in-out 400ms 1 forwards;
+    -webkit-animation: fadeIn 700ms ease-in-out 400ms 1 forwards;
+    -moz-animation: fadeIn 700ms ease-in-out 400ms 1 forwards;
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0%    { -webkit-transform: translateY(0);}
+    25%   { -webkit-transform: translateY(-180%);}
+    50%   { -webkit-transform: translateY(180%);}
+    100%  { -webkit-transform: translateY(0);}
+  }
+  @-moz-keyframes fadeIn {
+    0%    { -moz-transform: translateY(0);}
+    25%   { -moz-transform: translateY(-180%);}
+    50%   { -moz-transform: translateY(180%);}
+    100%  { -moz-transform: translateY(0);}
+  }
+  @keyframes fadeIn {
+    0%    { transform: translateY(0);}
+    25%   { transform: translateY(-180%);}
+    50%   { transform: translateY(180%);}
+    100%  { transform: translateY(0);}
+  }
+
+
+
+
+
+
+
 @media screen and (min-width: 1070px) and (max-width: 1280px) {
     .empty-space{
         width: 10%;
@@ -133,6 +198,10 @@
     }
     .navbar-more-btn{
         display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 50px;
     }
     .login-button{
         display: none;
@@ -151,6 +220,8 @@
     }
     .navbar-more-btn{
         display: flex;
+        margin-top: 20px;
+        margin-left: 50px;
     }
     .login-button{
         display: none;

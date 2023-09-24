@@ -4,6 +4,7 @@ import EventLogo from '../assets/event-logo.png';
 import SearchBar from './SearchBar';
 import EventLocation from './EventLocation';
 
+
 const Navbar = () => {
 
   const [navbarExpanded, setNavbarExpanded] = useState(false)
@@ -53,7 +54,13 @@ const Navbar = () => {
         </div>
         <div className='comp'><EventLocation /></div>
         <div className='login-button'><div>Login</div></div>
-        <div onClick={()=>{toggleNavbar()}} className='navbar-more-btn'>More</div>
+        <div onClick={() => { toggleNavbar() }} className='navbar-more-btn'>
+         <div> <ul>
+            <li class="circle1"></li>
+            <li class="circle2"></li>
+            <li class="circle3"></li>
+          </ul></div>
+        </div>
 
       </div>
 
