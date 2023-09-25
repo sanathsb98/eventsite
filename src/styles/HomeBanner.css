@@ -267,23 +267,32 @@ gap: 12px;
      }
     }
 
-    @media screen and (min-width: 0px) and (max-width: 450px) {
-   
-
-      .profile-date-location{
-        display: none;
-      }
-      .profile-image {
-        width: 80px;
-        height: 80px;
-      }
-      .profile-image-and-name{
-      
-        flex-direction: row;
-        gap: 12px;
-      
-       }
-      }
+        @media screen and (min-width: 0px) and (max-width: 450px) {
+    
+          .home-banner {
+            /* background-color: rgb(175, 175, 175); */
+            height: auto;
+            position: relative;
+            margin-top: 65px;
+            display: flex;
+          }
+    
+          .profile-date-location {
+            display: none;
+          }
+    
+          .profile-image {
+            width: 80px;
+            height: 80px;
+          }
+    
+          .profile-image-and-name {
+    
+            flex-direction: row;
+            gap: 12px;
+    
+          }
+        }
   
 
 
