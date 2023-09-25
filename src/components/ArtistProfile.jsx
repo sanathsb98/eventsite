@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/ArtistProfile.css';
-import ArtistPic from '../assets/artist-3.png'
+import ArtistPic from '../assets/artist-2.png'
 
 const ArtistProfile = () => {
     return (

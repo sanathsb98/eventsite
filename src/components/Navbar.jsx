@@ -16,7 +16,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className={`navbar`}>
+    <div className={`navbar `}>
       <div className={`mobile-view-navbar  ${navbarExpanded ? 'expanded':''}`}>
        <div className='expanded-navbar'>
 
@@ -36,7 +36,7 @@ const Navbar = () => {
        </div>
       </div>
 
-      <div className='navitems-container'>
+      <div className='navitems-container mediacontainer'>
 
         <div className='logo-search-box'>
           <div className='event-logo'><img src={EventLogo} alt='event-logo' /></div>

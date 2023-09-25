@@ -1,8 +1,17 @@
 * {
   margin: 0;
   padding: 0;
- 
 }
+
+@media (min-width: 1500px) {
+  .mediacontainer {
+    max-width: 1500px; /* Limit the container width to 1500px */
+    margin: 0 auto;    /* Center the container horizontally */
+  }
+}
+
+
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

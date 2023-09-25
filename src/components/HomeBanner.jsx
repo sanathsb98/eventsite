@@ -7,11 +7,13 @@ import Gallery from './Gallery';
 import ArtistProfile from './ArtistProfile';
 import ProfileMobileInfo from './ProfileMobileInfo';
 import EventProfile from '../assets/event-profile-pic.jpg'
+import BookNow from './BookNow';
+import AdBanner from './AdBanner';
 
 const HomeBanner = () => {
   return (
-    <>
-      <div className='home-banner'>
+    <div className='mediacontainer'>
+      <div className='home-banner '>
         <div className='banner-overlay'>
           {/* <img className='banner-image' alt='banner-image' /> */}
           <img className='banner-image' src={BannerImage} alt='banner-image' /> 
@@ -56,13 +58,19 @@ const HomeBanner = () => {
        
       </div>
       
-      <div>
+      {/* <div>
       <ProfileMobileInfo/>
-      </div>
+      </div> */}
+
+     
     
     <div>
       <EventType/>
     </div>
+
+    <div>
+        <BookNow/>
+      </div>
 
       <div className='about-gallery'>
         <div className='about-section'>
@@ -71,6 +79,10 @@ const HomeBanner = () => {
         <div className='gallery-section'>
           <Gallery />
         </div>
+      </div>
+
+      <div className='advertisement-space'>
+      <AdBanner/>
       </div>
 
       <div className='artist-and-teams'>
@@ -101,7 +113,7 @@ const HomeBanner = () => {
         </div>
 
       </div>
-    </>
+    </div>
   )
 }
 

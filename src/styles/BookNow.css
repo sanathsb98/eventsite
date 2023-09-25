@@ -1,0 +1,207 @@
+.booknow-container{
+    display: flex;
+    flex-direction: row;
+    background: var(--White, #FFF);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.booknow-left-content{
+    /* background-color: rgb(190, 190, 190); */
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  
+}
+.booknow-right-content{
+    /* background-color: rgb(190, 190, 190); */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.booknow-btn {
+    border-radius: 8px;
+    border: 1px solid var(--primary-600, #7F56D9);
+    background: var(--primary-600, #7F56D9);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    display: flex;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: var(--White, #FFF);
+    cursor: pointer;
+}
+.booknow-date-icon,.booknow-venue-icon{
+    margin-right: 4px;
+}
+.booknow-venue-map{
+    margin-left: 8px;
+    color: var(--blue-600, #1570EF);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+text-decoration-line: underline;
+cursor: pointer;
+}
+
+.booknow-support-button{
+    border-radius: 8px;
+border: 1px solid var(--gray-300, #D0D5DD);
+background: var(--White, #FFF);
+
+flex-direction: row;
+
+
+display: flex;
+padding: 12px 18px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+cursor: pointer;
+
+}
+.booknow-support-icon{
+    line-height: 12px; /* 150% */
+}
+.booknow-support-text{
+   
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 12px; /* 150% */
+}
+.booknow-date{
+    display: flex;
+    flex-direction: row;
+}
+.booknow-venue{
+    display: flex;
+    flex-direction: row;
+}
+.booknow-pricing-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    
+}
+.booknow-pricing-status{
+    background: var(--warning-500, #F79009);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    padding: 10px 12px;
+    line-height: 10px;
+    color: var(--White, #FFF);
+    font-size: 12px;
+}
+.booknow-pricing-logo{
+    line-height: 10px;
+}
+.booknow-pricing-price{
+    line-height: 10px;
+    color: var(--gray-700, #344054);
+}
+.booknow-price-highlight{
+font-weight: 500;
+}
+.booknow-date-text,.booknow-venue-text{
+    color: var(--gray-700, #344054);
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+   
+            .booknow-left-content{
+                /* background-color: rgb(190, 190, 190); */
+                display: flex;
+                flex-direction:column;
+             
+                
+              
+            }
+            .booknow-pricing-section{
+display: flex;
+justify-content: flex-start;
+            }
+            .booknow-date{
+                margin-bottom: 12px;
+            }
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 650px) {
+   
+  
+    .booknow-btn{
+      width: 100px;
+    }
+    .booknow-support-button{
+        width: 100px;
+    }
+    .booknow-right-content{
+     width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .booknow-left-content{
+        width: 100%;
+      
+    }
+    .booknow-container{
+        gap: 12px;
+        padding: 8px 16px;
+    }
+    .booknow-venue-map{
+       
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 550px) {
+   
+  
+    .booknow-btn{
+      width: 100%;
+    }
+    .booknow-support-button{
+        width: 100%;
+    }
+    .booknow-right-content{
+     width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .booknow-left-content{
+        width: 100%;
+      
+    }
+    .booknow-container{
+        gap: 32px;
+        padding: 8px 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    .booknow-venue-map{
+       
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+   
+  
+ 
+    .booknow-container{
+       
+        padding: 2px 4px;
+     
+    }
+    .booknow-venue-map{
+       
+    }
+}
+ 

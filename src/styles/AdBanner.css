@@ -1,0 +1,13 @@
+.ad-banner{
+    background: #FDFDFD;
+    height: auto;
+  padding: 20px 0px;
+
+}
+.ad-image{
+    background-size: cover;
+    width: 100%;
+    height: auto;
+   
+    background-position: center;
+}

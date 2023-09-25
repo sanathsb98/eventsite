@@ -9,7 +9,7 @@
     gap: 8px;
     padding: 24px 32px;
     background: var(--White, #FFF);
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .event-tags{
