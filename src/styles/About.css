@@ -11,8 +11,17 @@
     font-style: normal;
     font-weight: 600;
     line-height: 30px;
+    color: var(--gray-700, #344054);
 }
 
+.about-content {
+    color: var(--gray-500, #667085);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+}
 @media screen and (min-width: 0px) and (max-width: 850px) {
     .about{
        
