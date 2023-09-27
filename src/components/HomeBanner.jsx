@@ -85,6 +85,8 @@ const HomeBanner = () => {
       <AdBanner/>
       </div>
 
+      <div>jkjkjkjkj</div>
+
       <div className='artist-and-teams'>
         <div className='artist-title-and-info'>
           <div className='artist-or-teams'>Artist/Teams</div>
