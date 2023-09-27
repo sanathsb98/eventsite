@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/AdBanner.css';
-import AdPic from '../assets/ad-banner.png'
+import AdPic from '../assets/artist-1.png'
 
 const AdBanner = () => {
   return (
