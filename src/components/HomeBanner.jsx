@@ -83,7 +83,6 @@ const HomeBanner = () => {
 
       <div className='advertisement-space'>
       <AdBanner/>
-      
       </div>
 
       <div className='artist-and-teams'>
